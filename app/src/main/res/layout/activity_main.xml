@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFF2"
+    android:orientation="vertical"
+    tools:context="com.devone.hamzafetuga.viva.home2">
+
+    <!--android:background="@drawable/mala"-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentTop="true">
+
+        <!--android:background="#A0FFFFFF"-->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:paddingTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/heart1"
+                android:id="@+id/imageView" />
+
+            <!--<TextView-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:text="@string/Select_drug_"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:id="@+id/textView" />-->
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/spinner_"
+                android:gravity="center_horizontal"
+                style="?android:attr/spinnerStyle"
+                android:text="@string/Select_drug_"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:onClick="showDrugList"
+                android:textAlignment="center" />
+
+            <!--<LinearLayout-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent">-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/button"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="70dp"-->
+                    <!--android:layout_marginRight="20dp"-->
+                    <!--android:layout_gravity="left|center"-->
+                    <!--android:background="#565051"-->
+                    <!--android:onClick="ShowTermsAndConditions"-->
+                    <!--android:layout_weight="0.5"-->
+                    <!--android:text="@string/yes_button"-->
+                    <!--android:textColor="#ffffff" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/button2"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="70dp"-->
+                    <!--android:background="#565051"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:layout_gravity="right|center"-->
+                    <!--android:layout_weight="0.5"-->
+                    <!--android:text="@string/no_button"-->
+                    <!--android:textColor="#ffffff" />-->
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.6">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

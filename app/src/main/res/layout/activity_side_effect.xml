@@ -1,0 +1,48 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.devone.hamzafetuga.viva.SideEffect">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:animateLayoutChanges="true"
+
+        android:layout_height="0dip"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TOP"
+            android:id="@+id/textViewTop"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:fillViewport="true"
+        >
+
+        <FrameLayout
+            android:id="@+id/bottom"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</LinearLayout>

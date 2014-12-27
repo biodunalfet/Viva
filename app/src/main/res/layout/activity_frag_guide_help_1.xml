@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/darker_gray"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:background="@android:color/background_light">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/guide_image_one"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:tint="#9F000000"
+                android:id="@+id/imageview_image"/>
+
+            <TextView
+                android:id="@+id/textview_step"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/primary_text_dark"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:text="Step 1"
+                android:layout_alignLeft="@id/imageview_image"/>
+
+            <View
+                android:layout_alignLeft="@id/textview_step"
+                android:layout_alignRight="@id/textview_step"
+                android:id="@+id/view_1"
+                android:layout_below="@id/textview_step"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"
+                android:alpha="0.5"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:text="@string/help_guide_one"
+                android:layout_alignLeft="@id/imageview_image"
+                android:layout_alignBottom="@id/imageview_image"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/primary_text_light"
+                android:text="Step 2"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/textview_longtext"/>
+
+            <View
+                android:layout_alignLeft="@id/textview_longtext"
+                android:layout_alignRight="@id/textview_longtext"
+                android:id="@+id/view"
+                android:layout_below="@id/textview_longtext"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:listDivider"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:textColor="#A0000000"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_longtext"
+                android:text="IMPORTANT!"
+                android:textStyle="bold"
+                android:id="@+id/textview_important"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:paddingRight="25dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_important"
+                android:text="@string/help_guide_two_1"
+                android:id="@+id/textview_1"/>
+
+            <TextView
+                android:id="@+id/textview_2"
+                android:paddingLeft="20dp"
+                android:paddingRight="25dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_1"
+                android:text="@string/help_guide_two_2"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/primary_text_light"
+                android:text="Step 3"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/textview_step3"/>
+
+            <View
+                android:layout_alignLeft="@id/textview_step3"
+                android:layout_alignRight="@id/textview_step3"
+                android:id="@+id/view_2"
+                android:layout_below="@id/textview_step3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:listDivider"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:paddingRight="25dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_step3"
+                android:text="@string/help_guide_three"
+                android:id="@+id/textview_4"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:paddingRight="25dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textSize="16sp"
+                android:typeface="sans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_4"
+                android:text="@string/help_guide_three_2"
+                android:id="@+id/textview_5"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:gravity="bottom"
+                android:id="@+id/textview_swive"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:textSize="13sp"
+                android:text="@string/help_guide_two_3"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Viva</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Drugs">
+        <item>Fanterm DS tab</item>
+        <item>Combisunate DS tab</item>
+        <item>Voather forte tab</item>
+        <item>Amatem forte tab</item>
+        <item>Artemefan tab</item>
+        <item>Arena plus forte tab</item>
+        <item>Lumartem tab</item>
+    </string-array>
+
+    <string name="title_activity_home2">home2</string>
+    <string name="title_activity_home_screen2">homeScreen2</string>
+    <string name="Select_drug_">Select a drug</string>
+    <string name="yes_button">YES</string>
+    <string name="no_button">NO</string>
+    <string name="title_activity_info_page">InfoPage</string>
+    <string name="Wel_Viva">Welcome to Viva</string>
+    <string name="more_text_wel_">You will get notifications at the exact time
+        for the next dose and other doses till the last dose.</string>
+    <string name="Wish_q">Wishing you quick recovery!</string>
+    <string name="tip_1">Take an oily or fatty snack or meal after every dose!
+        Take lots of water or juice throughout and shortly after completing this
+        regimen (to prevent drug side-effects)</string>
+    <string name="tip_2">Taking a fatty/oily meal with this drug helps with quick
+        absorption into your blood, prevents it from staying in your stomach or intestine
+        and causing constipation or diarrhea or headache or a combination of these three
+        symptoms</string>
+    <string name="tip_3">Do not take this drug with Vitamin C or fruit juice!</string>
+    <string name="guide_2_1">Use every dose halfway through a meal(oily/fatty) NOT BEFORE, NOT AFTER</string>
+    <string name="guide_2_2">Using it with a meal prevents the drug</string>
+    <string name="guide_2_3">Do not take drug with Vitamin C or fruit juice</string>
+    <string name="guide_2_4">The Viva experience is amazingly side-effect free!</string>
+    <string name="title_activity_frag_guide_help_2">frag_guide_help_2</string>
+    <string name="title_activity_frag_guide_help_3">frag_guide_help_3</string>
+    <string name="title_activity_guide">guide</string>
+    <string name="help_guide_one">        Purchase Coartem (Arthemeter/ Lumefantrin)
+        or any substitute <br /> (Lumaterm, Coartal etc)
+        at your local pharmacy</string>
+    <string name="help_guide_two_1">        Use the first dose anytime between 7am and 10am.</string>
+    <string name="help_guide_two_2">        These start times are strongly advised because taking the first dose
+        anytime before 7am and beyond 10am causes subsequent doses to fall at
+        uncomfortable times like midnight or 3am.</string>
+    <string name="help_guide_three_2"> Select your drug and click YES in the prompt that shows up.</string>
+    <string name="help_guide_two_3">        Swipe</string>
+    <string name="help_guide_three">        Open up Viva not more than 10 minutes after taking the first dose</string>
+    <string name="title_activity_frag_guide_help_1">frag_guide_help_1</string>
+    <string name="remind_1">Please, take one tablet of x now!</string>
+    <string name="remind_2"> Take an oily or fatty snack or meal after every dose! Take lots of water or juice
+        throughout and shortly after completing this regimen (to prevent drug side-effects)</string>
+    <string name="remind_3">Taking a fatty/oily meal with this drug helps with quick absorption into your blood, prevents it from staying in your stomach
+        or intestine and causing constipation or diarrhea or headache or a combination of these three symptoms</string>
+    <string name="remind_4">Do not take this drug with Vit. C or fruit juice!</string>
+    <string name="facebook_app_id">1593306037557450</string>
+    <string name="title_activity_spalsh_screen">spalsh_screen</string>
+    <string name="take_drugs">Take drugs between 7am and 10am</string>
+    <string name="lotsa_water">Take lots of water</string>
+    <string name="halfway_1">Use dose HALFWAY <color /></string>
+    <string name="halfway_2">through meal</string>
+    <string name="before_1">Not BEFORE</string>
+    <string name="before_2">eating meal</string>
+    <string name="after_1">Not AFTER</string>
+    <string name="after_2">eating meal</string>
+    <string name="vitc_text">Do not take Vitamin C after meal</string>
+    <string name="zero_min">0 minutes (Instantly)</string>
+    <string name="five_min">5 minutes</string>
+    <string name="ten_min">10 minutes</string>
+    <string name="after_min">After 10 minutes</string>
+    <string name="title_activity_side_effect">SideEffect</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

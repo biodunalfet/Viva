@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/backgg"
+    android:paddingTop="50dp"
+
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.22"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView10"
+                android:layout_centerVertical="true"
+                android:src="@drawable/tracker"
+                android:scaleType="fitXY"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="fill_parent">
+
+            <TableRow
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_width="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/zero_min"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:id="@+id/textView12"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/five_min"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:id="@+id/textView1T2"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/ten_min"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:id="@+id/textView1T3"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/after_min"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:id="@+id/textView1T4"
+                    />
+
+            </TableRow>
+
+
+
+
+
+        </TableLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView11"
+                android:src="@drawable/digestive"
+                android:adjustViewBounds="true"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_weight="0.15">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="MORE"
+            android:id="@+id/button4"
+            android:shadowColor="#000000"
+            android:shadowRadius="1.5"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:background="#C5E3BF"
+            />
+
+    </LinearLayout>
+</LinearLayout>

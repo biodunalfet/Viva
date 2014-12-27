@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context="com.devone.hamzafetuga.viva.frag_guide_help_3">
+
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|top"
+        >
+
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/speedy"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="30sp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginBottom="4dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="VIVA WISHES YOU SPEEDY RECOVERY!"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="GET WELL SOON!"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="25sp"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_below="@id/speedy"/>-->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/ws"
+            android:scaleType="centerCrop"
+            android:tint="#C0000000"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Viva wishes you speedy recovery"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:id="@+id/textView"
+            android:padding="10dp"
+            android:background="#80000000"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
